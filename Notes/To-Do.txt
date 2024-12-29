@@ -1,0 +1,2 @@
+Fix wardrobe pixel inconsistency
+Add research speed to bookshelves

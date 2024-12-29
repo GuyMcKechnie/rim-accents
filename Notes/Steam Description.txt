@@ -1,0 +1,49 @@
+[h1]Header[/h1]
+[h2]Header[/h2]
+[h3]Header[/h3]
+[b]Bold[/b]
+[u]Underlined[/u]
+[i]Italic[/i]
+[strike]Strikethrough[/strike]
+[spoiler]Spoiler[/spoiler]
+[url=store.steampowered.com]Link[/url]
+
+[h1]RimAccents[/h1]
+Transform the look and feel of your RimWorld colonies with RimAccents! This comprehensive mod brings a plethora of new furniture pieces and decorative items to your game, perfect for adding style and personality to your indoor and outdoor spaces. Whether you're decorating a cosy living room, a lavish dining hall, or a tranquil garden, this mod has everything you need to create visually stunning environments that your colonists will love. Elevate your colony's aesthetic appeal and make it truly stand out on the rim with RimAccents!
+
+[h2]Furniture[/h2]
+[h3]End Tables[/h3]
+- 2 variants.
+- 2 of each variant linkable to beds.
+- +0.05 comfort for each linkable.
+[h3]Wardrobes[/h3]
+- 2 variants (1x1).
+- 1 of each variant linkable to beds.
+[h3]Large Bookshelves[/h3]
+- 4 variants (2x1).
+- [b]To-Do[/b] 1 of each variant linkable to research benches.
+- [b]To-Do[/b] +0.05 research speed for each linkable.
+[h3]Lights[/h3]
+- electrical standing lamp.
+[h3]Rugs[/h3]
+- 2 large rug variants (2x2).
+- 2 medium rug variants (2x1).
+- 2 small rug variants (1x1).
+[h3]Seating[/h3]
+- 2 single couch variants (1x1).
+- 2 double couch variants (2x1).
+- 1 dining chair variant.
+[h3]Tables[/h3]
+- 2 coffee table variants (1x1).
+- 2 dining table variants (2x1).
+
+[h2]Errors & Incompatibilities[/h2]
+If you encounter any compatibility issues, errors, or have suggestions for improvement, please don't hesitate to leave a comment below. Your feedback is invaluable in helping to enhance the modding experience for everyone. Whether it's identifying conflicts with other mods, reporting bugs, or offering ideas for new features, your input helps us continually refine and optimise the mod. Thank you for being part of the RimWorld community and contributing to making RimAccents even better!
+
+[h2]Errors, Incompatibilities & Feature Suggestions[/h2]
+If you encounter any errors or compatibility issues while using RimAccents, please feel free to report them via the Steam discussion page or within our Discord channel. Your feedback is essential for improving the mod and ensuring a smoother experience for all players. Additionally, if you have any suggestions for new features or enhancements, we encourage you to share them in the same platforms. Our Discord channel invite link is provided here: [url=https://discord.gg/Xcqbvsrpfn]RimAccents Discord[/url]. We greatly appreciate your input and contributions to making RimAccents even better!
+
+[h2]Art Assets[/h2]
+In RimAccents, every art asset utilised is duly credited to their respective creators, ensuring proper recognition for their work. Should any author of the artwork included in this mod desire its removal or have any concerns, please do not hesitate to contact me directly. Your artistic contributions are valued and respected, and I am committed to addressing any issues promptly and respectfully.
+[h3]Top-Down Retro Interior[/h3]
+[url=https://penzilla.itch.io/top-down-retro-interior?download]Top-Down Retro Interior | [Pixel Art] by Penzilla. (n.d.). itch.io.[/url]

@@ -1,0 +1,787 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=========================================================Lighting==============================================================================-->
+  <!--Thick Candle V1-->
+  <!--<ThingDef ParentName="RA_LightingBase"><defName>XJ3K7F9L_ThickCandle_I</defName><label>Thick Candle</label><description>Illuminate your colony with this sturdy and long-lasting source of light, perfect for brightening up even the darkest corners of your RimWorld settlement.</description><uiIconPath>Indoor_Decorations/Candles/Thick_Candle_V1/XJ3K7F9L_ThickCandle_V1_1</uiIconPath><graphicData><texPath>Indoor_Decorations/Candles/Thick_Candle_V1</texPath><graphicClass>Graphic_Random</graphicClass><drawSize>(0.5,0.5)</drawSize></graphicData><costList><Cloth>5</Cloth></costList><rotatable>false</rotatable><statBases><Beauty>1</Beauty><Flammability>1.0</Flammability><MarketValue>5</MarketValue><MaxHitPoints>10</MaxHitPoints><WorkToBuild>60</WorkToBuild><Mass>0.2</Mass></statBases></ThingDef>-->
+  <!--Thick Candle V2-->
+  <!--<ThingDef ParentName="RA_LightingBase"><defName>XJ3K7F9L_ThickCandle_II</defName><label>Thick Candle</label><description>Illuminate your colony with this sturdy and long-lasting source of light, perfect for brightening up even the darkest corners of your RimWorld settlement.</description><uiIconPath>Indoor_Decorations/Candles/Thick_Candle_V2/XJ3K7F9L_ThickCandle_V2_1</uiIconPath><graphicData><texPath>Indoor_Decorations/Candles/Thick_Candle_V2</texPath><graphicClass>Graphic_Random</graphicClass><drawSize>(1.3,1.3)</drawSize></graphicData><costList><Cloth>5</Cloth></costList><rotatable>false</rotatable><statBases><Beauty>1</Beauty><Flammability>1.0</Flammability><MarketValue>5</MarketValue><MaxHitPoints>10</MaxHitPoints><WorkToBuild>60</WorkToBuild><Mass>0.2</Mass></statBases></ThingDef>-->
+  <!--Multi Candle V1-->
+  <!--<ThingDef ParentName="RA_LightingBase"><defName>XJ3K7F9L_MultiCandle_I</defName><label>Cluster of Candles</label><description>A cluster of candles comprising several meticulously crafted wax candles, casts a warm, flickering glow, adding a cozy ambiance to any abode.</description><uiIconPath>Indoor_Decorations/Candles/Multi_Candle_V1/XJ3K7F9L_MultiCandle_V1</uiIconPath><graphicData><texPath>Indoor_Decorations/Candles/Multi_Candle_V1</texPath><graphicClass>Graphic_Random</graphicClass><drawSize>(1.3,1.3)</drawSize></graphicData><costList><Cloth>15</Cloth></costList><rotatable>false</rotatable><statBases><Beauty>3</Beauty><Flammability>1.0</Flammability><MarketValue>5</MarketValue><MaxHitPoints>10</MaxHitPoints><WorkToBuild>180</WorkToBuild><Mass>0.6</Mass></statBases></ThingDef>-->
+  <!--Candelabra V1-->
+  <!--<ThingDef ParentName="RA_LightingBase"><defName>XJ3K7F9L_Candelabra_I</defName><label>Candelabra</label><description>The candelabra is an elegant fixture consisting of multiple arms or branches designed to hold candles. With its ornate design and graceful curves, it adds a touch of sophistication to any room, casting a warm and flickering glow that illuminates the surroundings. Ideal for formal dinners, romantic evenings, or simply enhancing the ambiance of your living space.</description><uiIconPath>Indoor_Decorations/Candles/Candelabra_V1/XJ3K7F9L_Candelabra_V1</uiIconPath><costList><Steel>5</Steel><Cloth>5</Cloth></costList><graphicData><texPath>Indoor_Decorations/Candles/Candelabra_V1</texPath><graphicClass>Graphic_Random</graphicClass><drawSize>(1.3,1.3)</drawSize></graphicData><rotatable>false</rotatable><statBases><Beauty>5</Beauty><Flammability>1.0</Flammability><MarketValue>5</MarketValue><MaxHitPoints>10</MaxHitPoints><WorkToBuild>260</WorkToBuild><Mass>0.2</Mass></statBases></ThingDef>-->
+  <!--Multi Candelabra V1-->
+  <!--<ThingDef ParentName="RA_LightingBase"><defName>XJ3K7F9L_MultiCandelabra_I</defName><label>Pronged Candelabra</label><description>The candelabra is an elegant fixture consisting of multiple arms or branches designed to hold candles. With its ornate design and graceful curves, it adds a touch of sophistication to any room, casting a warm and flickering glow that illuminates the surroundings. Ideal for formal dinners, romantic evenings, or simply enhancing the ambiance of your living space.</description><uiIconPath>Indoor_Decorations/Candles/Multi_Candelabra_V1/XJ3K7F9L_MultiCandelabra_V1</uiIconPath><costList><Steel>5</Steel><Cloth>15</Cloth></costList><graphicData><texPath>Indoor_Decorations/Candles/Multi_Candelabra_V1</texPath><graphicClass>Graphic_Random</graphicClass><drawSize>(1.3,1.3)</drawSize></graphicData><rotatable>false</rotatable><statBases><Beauty>6</Beauty><Flammability>1.0</Flammability><MarketValue>5</MarketValue><MaxHitPoints>10</MaxHitPoints><WorkToBuild>380</WorkToBuild><Mass>1.4</Mass></statBases></ThingDef>-->
+  <!--Standing Lamp-->
+  <ThingDef ParentName="RA_ElectricalLightingBase">
+    <defName>XJ3K7F9L_StandingLamp</defName>
+    <label>Standing Lamp</label>
+    <description>A modern and elegant lighting fixture, providing soft, ambient glow for cozy illumination.</description>
+    <uiIconScale>1</uiIconScale>
+    <uiIconPath>Indoor_Decorations/Lights/XJ3K7F9L_StandingLamp</uiIconPath>
+    <costList>
+      <Steel>15</Steel>
+      <WoodLog>25</WoodLog>
+    </costList>
+    <graphicData>
+      <texPath>Indoor_Decorations/Lights/XJ3K7F9L_StandingLamp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <Beauty>3</Beauty>
+      <Flammability>1.0</Flammability>
+      <MarketValue>175</MarketValue>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Mass>10</Mass>
+    </statBases>
+    <size>(1,1)</size>
+  </ThingDef>
+  <!--=========================================================Furniture=============================================================================-->
+  <!--Wardrobe V1-->
+  <ThingDef ParentName="RA_FurnitureBase">
+    <defName>XJ3K7F9L_Wardrobe_I</defName>
+    <label>Wardrobe</label>
+    <description>Stylish, organized storage for your clothing and accessories.</description>
+    <uiIconPath>Indoor_Decorations/Bedroom/Wardrobe_V1/XJ3K7F9L_Wardrobe_V1_south</uiIconPath>
+    <uiIconScale>0.9</uiIconScale>
+    <graphicData>
+      <texPath>Indoor_Decorations/Bedroom/Wardrobe_V1/XJ3K7F9L_Wardrobe_V1</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <Beauty>3</Beauty>
+      <Flammability>1.0</Flammability>
+      <MarketValue>125</MarketValue>
+      <MaxHitPoints>290</MaxHitPoints>
+      <WorkToBuild>4500</WorkToBuild>
+      <Mass>40</Mass>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>65</WoodLog>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.05</Comfort>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <maxDistance>6</maxDistance>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  <!--Wardrobe V2-->
+  <ThingDef ParentName="RA_FurnitureBase">
+    <defName>XJ3K7F9L_Wardrobe_II</defName>
+    <label>Wardrobe</label>
+    <description>Stylish, organized storage for your clothing and accessories.</description>
+    <uiIconPath>Indoor_Decorations/Bedroom/Wardrobe_V2/XJ3K7F9L_Wardrobe_V2_south</uiIconPath>
+    <uiIconScale>0.9</uiIconScale>
+    <graphicData>
+      <texPath>Indoor_Decorations/Bedroom/Wardrobe_V2/XJ3K7F9L_Wardrobe_V2</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <Beauty>3</Beauty>
+      <Flammability>1.0</Flammability>
+      <MarketValue>125</MarketValue>
+      <MaxHitPoints>290</MaxHitPoints>
+      <WorkToBuild>4500</WorkToBuild>
+      <Mass>40</Mass>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>65</WoodLog>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.05</Comfort>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <maxDistance>6</maxDistance>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  <!--End Table V1-->
+  <ThingDef ParentName="RA_FurnitureBase">
+    <defName>XJ3K7F9L_Endtable_I</defName>
+    <label>End Table</label>
+    <description>A small yet functional piece of furniture, perfect for holding lamps, books, or other essentials beside your bed.</description>
+    <uiIconScale>0.9</uiIconScale>
+    <uiIconPath>Indoor_Decorations/Bedroom/Endtable_V1/XJ3K7F9L_Endtable_V1_south</uiIconPath>
+    <surfaceType>Item</surfaceType>
+    <graphicData>
+      <texPath>Indoor_Decorations/Bedroom/Endtable_V1/XJ3K7F9L_Endtable_V1</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>3</Beauty>
+    </statBases>
+    <pathCost>60</pathCost>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costList>
+      <WoodLog>40</WoodLog>
+    </costList>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.05</Comfort>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+        <mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
+      </li>
+    </comps>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <castEdgeShadows>false</castEdgeShadows>
+    <size>(1,1)</size>
+  </ThingDef>
+  <!--End Table V2-->
+  <ThingDef ParentName="RA_FurnitureBase">
+    <defName>XJ3K7F9L_Endtable_II</defName>
+    <label>End Table</label>
+    <description>A small yet functional piece of furniture, perfect for holding lamps, books, or other essentials beside your bed.</description>
+    <uiIconPath>Indoor_Decorations/Bedroom/Endtable_V2/XJ3K7F9L_Endtable_V2_south</uiIconPath>
+    <uiIconScale>0.9</uiIconScale>
+    <surfaceType>Item</surfaceType>
+    <graphicData>
+      <texPath>Indoor_Decorations/Bedroom/Endtable_V2/XJ3K7F9L_Endtable_V2</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.0,1.0)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>3</Beauty>
+    </statBases>
+    <pathCost>60</pathCost>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <costList>
+      <WoodLog>40</WoodLog>
+    </costList>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.05</Comfort>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+        <mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
+      </li>
+    </comps>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <castEdgeShadows>false</castEdgeShadows>
+    <size>(1,1)</size>
+  </ThingDef>
+  <!--Large Bookshelf V1-->
+  <ThingDef ParentName="RA_FurnitureBase">
+    <defName>XJ3K7F9L_LargeBookshelf_I</defName>
+    <label>Large Bookshelf</label>
+    <description>A towering testament to knowledge and organization, this expansive bookshelf offers ample space to display and store your literary treasures. With multiple shelves and sturdy construction, it stands as a beacon of learning in any room, inviting exploration and discovery with every volume it holds.</description>
+    <uiIconPath>Indoor_Decorations/Bookshelves/LargeBookshelf_V1/XJ3K7F9L_LargeBookshelf_V1_south</uiIconPath>
+    <uiIconScale>1</uiIconScale>
+    <graphicData>
+      <texPath>Indoor_Decorations/Bookshelves/LargeBookshelf_V1/XJ3K7F9L_LargeBookshelf_V1</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.0,2.0)</drawSize>
+    </graphicData>
+    <statBases>
+      <Beauty>3</Beauty>
+      <Flammability>1.0</Flammability>
+      <MarketValue>165</MarketValue>
+      <MaxHitPoints>240</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Mass>40</Mass>
+    </statBases>
+    <size>(2,1)</size>
+    <passability>PassThroughOnly</passability>
+    <costList>
+      <WoodLog>60</WoodLog>
+    </costList>
+  </ThingDef>
+  <!--Large Bookshelf V2-->
+  <ThingDef ParentName="RA_FurnitureBase">
+    <defName>XJ3K7F9L_LargeBookshelf_II</defName>
+    <label>Large Bookshelf</label>
+    <description>A towering testament to knowledge and organization, this expansive bookshelf offers ample space to display and store your literary treasures. With multiple shelves and sturdy construction, it stands as a beacon of learning in any room, inviting exploration and discovery with every volume it holds.</description>
+    <uiIconPath>Indoor_Decorations/Bookshelves/LargeBookshelf_V2/XJ3K7F9L_LargeBookshelf_V2_south</uiIconPath>
+    <uiIconScale>1.0</uiIconScale>
+    <graphicData>
+      <texPath>Indoor_Decorations/Bookshelves/LargeBookshelf_V2/XJ3K7F9L_LargeBookshelf_V2</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <Beauty>3</Beauty>
+      <Flammability>1.0</Flammability>
+      <MarketValue>165</MarketValue>
+      <MaxHitPoints>240</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Mass>40</Mass>
+    </statBases>
+    <size>(2,1)</size>
+    <passability>PassThroughOnly</passability>
+    <costList>
+      <WoodLog>60</WoodLog>
+    </costList>
+  </ThingDef>
+  <!--Large Bookshelf V3-->
+  <ThingDef ParentName="RA_FurnitureBase">
+    <defName>XJ3K7F9L_LargeBookshelf_III</defName>
+    <label>Large Bookshelf</label>
+    <description>A towering testament to knowledge and organization, this expansive bookshelf offers ample space to display and store your literary treasures. With multiple shelves and sturdy construction, it stands as a beacon of learning in any room, inviting exploration and discovery with every volume it holds.</description>
+    <uiIconPath>Indoor_Decorations/Bookshelves/LargeBookshelf_V3/XJ3K7F9L_LargeBookshelf_V3_south</uiIconPath>
+    <uiIconScale>1.0</uiIconScale>
+    <graphicData>
+      <texPath>Indoor_Decorations/Bookshelves/LargeBookshelf_V3/XJ3K7F9L_LargeBookshelf_V3</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <Beauty>3</Beauty>
+      <Flammability>1.0</Flammability>
+      <MarketValue>165</MarketValue>
+      <MaxHitPoints>240</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Mass>40</Mass>
+    </statBases>
+    <size>(2,1)</size>
+    <passability>PassThroughOnly</passability>
+    <costList>
+      <WoodLog>60</WoodLog>
+    </costList>
+  </ThingDef>
+  <!--Large Bookshelf V4-->
+  <ThingDef ParentName="RA_FurnitureBase">
+    <defName>XJ3K7F9L_LargeBookshelf_IV</defName>
+    <label>Large Bookshelf</label>
+    <description>A towering testament to knowledge and organization, this expansive bookshelf offers ample space to display and store your literary treasures. With multiple shelves and sturdy construction, it stands as a beacon of learning in any room, inviting exploration and discovery with every volume it holds.</description>
+    <uiIconPath>Indoor_Decorations/Bookshelves/LargeBookshelf_V4/XJ3K7F9L_LargeBookshelf_V4_south</uiIconPath>
+    <uiIconScale>1.0</uiIconScale>
+    <graphicData>
+      <texPath>Indoor_Decorations/Bookshelves/LargeBookshelf_V4/XJ3K7F9L_LargeBookshelf_V4</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <Beauty>3</Beauty>
+      <Flammability>1.0</Flammability>
+      <MarketValue>165</MarketValue>
+      <MaxHitPoints>240</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Mass>40</Mass>
+    </statBases>
+    <size>(2,1)</size>
+    <passability>PassThroughOnly</passability>
+    <costList>
+      <WoodLog>60</WoodLog>
+    </costList>
+  </ThingDef>
+  <!--Coffee Table A-->
+  <ThingDef ParentName="RA_FurnitureBase">
+    <defName>XJ3K7F9L_CoffeeTable_A</defName>
+    <label>Coffee Table (1x1)</label>
+    <description>A stylish and functional centerpiece for your living space, perfect for holding drinks, books, or decorative items.</description>
+    <uiIconPath>Indoor_Decorations/Tables/XJ3K7F9L_CoffeeTable_A_south</uiIconPath>
+    <uiIconScale>1.0</uiIconScale>
+    <costList>
+      <WoodLog>35</WoodLog>
+    </costList>
+    <graphicData>
+      <texPath>Indoor_Decorations/Tables/XJ3K7F9L_CoffeeTable_A</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+    </graphicData>
+    <statBases>
+      <Beauty>3</Beauty>
+      <Flammability>1.0</Flammability>
+      <MarketValue>145</MarketValue>
+      <MaxHitPoints>125</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Mass>20</Mass>
+    </statBases>
+    <size>(1,1)</size>
+    <passability>PassThroughOnly</passability>
+    <defaultPlacingRot>North</defaultPlacingRot>
+  </ThingDef>
+  <!--Coffee Table B-->
+  <ThingDef ParentName="RA_FurnitureBase">
+    <defName>XJ3K7F9L_CoffeeTable_B</defName>
+    <label>Coffee Table (1x1)</label>
+    <description>A stylish and functional centerpiece for your living space, perfect for holding drinks, books, or decorative items.</description>
+    <uiIconPath>Indoor_Decorations/Tables/XJ3K7F9L_CoffeeTable_B_south</uiIconPath>
+    <uiIconScale>1.0</uiIconScale>
+    <costList>
+      <WoodLog>35</WoodLog>
+    </costList>
+    <graphicData>
+      <texPath>Indoor_Decorations/Tables/XJ3K7F9L_CoffeeTable_B</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+    </graphicData>
+    <size>(1,1)</size>
+    <passability>PassThroughOnly</passability>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <statBases>
+      <Beauty>3</Beauty>
+      <Flammability>1.0</Flammability>
+      <MarketValue>145</MarketValue>
+      <MaxHitPoints>125</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Mass>20</Mass>
+    </statBases>
+  </ThingDef>
+  <!--=========================================================Functional Furniture=================================-->
+  <!--Dining Chair V1-->
+  <ThingDef ParentName="RA_FurnitureBase">
+    <defName>XJ3K7F9L_DiningChair_I</defName>
+    <label>Dining Chair</label>
+    <description>Crafted for comfort and style, this sturdy seat provides a perfect perch for enjoying meals with family and friends. Its ergonomic design ensures proper posture during dining, while its sleek finish adds an elegant touch to your dining area.</description>
+    <uiIconScale>1</uiIconScale>
+    <uiIconPath>Indoor_Decorations/Seating/DiningChair_V1/XJ3K7F9L_DiningChair_south</uiIconPath>
+    <graphicData>
+      <texPath>Indoor_Decorations/Seating/DiningChair_V1/XJ3K7F9L_DiningChair</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <damageData>
+        <rectN>(0.125,0.296875,0.734375,0.421875)</rectN>
+        <rectS>(0.125,0.296875,0.734375,0.421875)</rectS>
+        <rectE>(0.234375,0.296875,0.5,0.546875)</rectE>
+        <rectW>(0.234375,0.296875,0.5,0.546875)</rectW>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.18, 0.23, 0.18)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>8</Beauty>
+      <Comfort>0.7</Comfort>
+    </statBases>
+    <building>
+      <isSittable>true</isSittable>
+    </building>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>40</WoodLog>
+    </costList>
+  </ThingDef>
+  <!--Couch A-->
+  <ThingDef ParentName="RA_FurnitureBase">
+    <defName>XJ3K7F9L_Couch_A</defName>
+    <label>Couch</label>
+    <description>The couch, a pinnacle of comfort and style, beckons weary travelers to rest their bones. Its plush cushions offer solace after a long day's toil, while its sturdy frame promises enduring support.</description>
+    <uiIconPath>Indoor_Decorations/Seating/Couch_A/XJ3K7F9L_Couch_A_south</uiIconPath>
+    <graphicData>
+      <texPath>Indoor_Decorations/Seating/Couch_A/XJ3K7F9L_Couch_A</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <damageData>
+        <rectN>(0.125,0.296875,0.734375,0.421875)</rectN>
+        <rectS>(0.125,0.296875,0.734375,0.421875)</rectS>
+        <rectE>(0.234375,0.296875,0.5,0.546875)</rectE>
+        <rectW>(0.234375,0.296875,0.5,0.546875)</rectW>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+      <drawSize>(1.0,1.0)</drawSize>
+      <shadowData>
+        <volume>(0.18, 0.23, 0.18)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToBuild>9000</WorkToBuild>
+      <Mass>35</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>4</Beauty>
+      <Comfort>0.8</Comfort>
+    </statBases>
+    <building>
+      <isSittable>true</isSittable>
+      <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+    </building>
+    <size>(1,1)</size>
+    <costList>
+      <Cloth>60</Cloth>
+    </costList>
+  </ThingDef>
+  <!--Couch B-->
+  <ThingDef ParentName="RA_FurnitureBase">
+    <defName>XJ3K7F9L_Couch_B</defName>
+    <label>Couch</label>
+    <description>The couch, a pinnacle of comfort and style, beckons weary travelers to rest their bones. Its plush cushions offer solace after a long day's toil, while its sturdy frame promises enduring support.</description>
+    <uiIconPath>Indoor_Decorations/Seating/Couch_B/XJ3K7F9L_Couch_B_south</uiIconPath>
+    <graphicData>
+      <texPath>Indoor_Decorations/Seating/Couch_B/XJ3K7F9L_Couch_B</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <damageData>
+        <rectN>(0.125,0.296875,0.734375,0.421875)</rectN>
+        <rectS>(0.125,0.296875,0.734375,0.421875)</rectS>
+        <rectE>(0.234375,0.296875,0.5,0.546875)</rectE>
+        <rectW>(0.234375,0.296875,0.5,0.546875)</rectW>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+      <drawSize>(1.0,1.0)</drawSize>
+      <shadowData>
+        <volume>(0.18, 0.23, 0.18)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToBuild>9000</WorkToBuild>
+      <Mass>35</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>4</Beauty>
+      <Comfort>0.8</Comfort>
+    </statBases>
+    <building>
+      <isSittable>true</isSittable>
+      <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+    </building>
+    <size>(1,1)</size>
+    <costList>
+      <Cloth>60</Cloth>
+    </costList>
+  </ThingDef>
+  <!--Double Couch A-->
+  <ThingDef ParentName="RA_FurnitureBase">
+    <defName>XJ3K7F9L_DoubleCouch_A</defName>
+    <label>Double Couch</label>
+    <description>The couch, a pinnacle of comfort and style, beckons weary travelers to rest their bones. Its plush cushions offer solace after a long day's toil, while its sturdy frame promises enduring support.</description>
+    <uiIconScale>1.0</uiIconScale>
+    <uiIconPath>Indoor_Decorations/Seating/DoubleCouch_A/XJ3K7F9L_DoubleCouch_A_south</uiIconPath>
+    <graphicData>
+      <texPath>Indoor_Decorations/Seating/DoubleCouch_A/XJ3K7F9L_DoubleCouch_A</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <damageData>
+        <rectN>(0.125,0.296875,0.734375,0.421875)</rectN>
+        <rectS>(0.125,0.296875,0.734375,0.421875)</rectS>
+        <rectE>(0.234375,0.296875,0.5,0.546875)</rectE>
+        <rectW>(0.234375,0.296875,0.5,0.546875)</rectW>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+      <drawSize>(2.5,2.5)</drawSize>
+      <shadowData>
+        <volume>(0.18, 0.23, 0.18)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToBuild>12000</WorkToBuild>
+      <Mass>70</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>4</Beauty>
+      <Comfort>0.8</Comfort>
+    </statBases>
+    <building>
+      <isSittable>true</isSittable>
+      <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+    </building>
+    <size>(2,1)</size>
+    <costList>
+      <Cloth>120</Cloth>
+    </costList>
+  </ThingDef>
+  <!--Double Couch B-->
+  <ThingDef ParentName="RA_FurnitureBase">
+    <defName>XJ3K7F9L_DoubleCouch_B</defName>
+    <label>Double Couch</label>
+    <description>The couch, a pinnacle of comfort and style, beckons weary travelers to rest their bones. Its plush cushions offer solace after a long day's toil, while its sturdy frame promises enduring support.</description>
+    <uiIconScale>1.0</uiIconScale>
+    <uiIconPath>Indoor_Decorations/Seating/DoubleCouch_B/XJ3K7F9L_DoubleCouch_B_south</uiIconPath>
+    <graphicData>
+      <texPath>Indoor_Decorations/Seating/DoubleCouch_B/XJ3K7F9L_DoubleCouch_B</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <damageData>
+        <rectN>(0.125,0.296875,0.734375,0.421875)</rectN>
+        <rectS>(0.125,0.296875,0.734375,0.421875)</rectS>
+        <rectE>(0.234375,0.296875,0.5,0.546875)</rectE>
+        <rectW>(0.234375,0.296875,0.5,0.546875)</rectW>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+      <drawSize>(2.5,2.5)</drawSize>
+      <shadowData>
+        <volume>(0.18, 0.23, 0.18)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToBuild>12000</WorkToBuild>
+      <Mass>70</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>4</Beauty>
+      <Comfort>0.8</Comfort>
+    </statBases>
+    <building>
+      <isSittable>true</isSittable>
+      <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+    </building>
+    <size>(2,1)</size>
+    <costList>
+      <Cloth>120</Cloth>
+    </costList>
+  </ThingDef>
+  <!--Dining Table A-->
+  <ThingDef ParentName="RA_TableBase">
+    <defName>XJ3K7F9L_DiningTable_A</defName>
+    <label>Dining Table (2x1)</label>
+    <description>A sturdy and elegant surface for sharing meals and gatherings, designed to accommodate your colony's dining needs with style and practicality.</description>
+    <uiIconPath>Indoor_Decorations/Tables/XJ3K7F9L_DiningTable_A_south</uiIconPath>
+    <uiIconScale>1.0</uiIconScale>
+    <costList>
+      <WoodLog>70</WoodLog>
+    </costList>
+    <graphicData>
+      <texPath>Indoor_Decorations/Tables/XJ3K7F9L_DiningTable_A</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.5,2.5)</drawSize>
+    </graphicData>
+    <size>(2,1)</size>
+    <passability>PassThroughOnly</passability>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <statBases>
+      <Beauty>1</Beauty>
+      <Flammability>1.0</Flammability>
+      <MarketValue>145</MarketValue>
+      <MaxHitPoints>170</MaxHitPoints>
+      <WorkToBuild>3000</WorkToBuild>
+      <Mass>50</Mass>
+    </statBases>
+  </ThingDef>
+  <!--Dining Table B-->
+  <ThingDef ParentName="RA_TableBase">
+    <defName>XJ3K7F9L_DiningTable_B</defName>
+    <label>Dining Table (2x1)</label>
+    <description>A sturdy and elegant surface for sharing meals and gatherings, designed to accommodate your colony's dining needs with style and practicality.</description>
+    <uiIconPath>Indoor_Decorations/Tables/XJ3K7F9L_DiningTable_B_south</uiIconPath>
+    <uiIconScale>1.0</uiIconScale>
+    <costList>
+      <WoodLog>70</WoodLog>
+    </costList>
+    <graphicData>
+      <texPath>Indoor_Decorations/Tables/XJ3K7F9L_DiningTable_B</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.5,2.5)</drawSize>
+    </graphicData>
+    <size>(2,1)</size>
+    <passability>PassThroughOnly</passability>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <statBases>
+      <Beauty>1</Beauty>
+      <Flammability>1.0</Flammability>
+      <MarketValue>145</MarketValue>
+      <MaxHitPoints>170</MaxHitPoints>
+      <WorkToBuild>3000</WorkToBuild>
+      <Mass>50</Mass>
+    </statBases>
+  </ThingDef>
+  <!--=========================================================Rugs==================================================================================-->
+  <!--Idea | Sitting Cushion-->
+  <!--Brown Rug-->
+  <ThingDef ParentName="RA_RugBase">
+    <defName>XJ3K7F9L_BrownRug</defName>
+    <label>Brown Rug (2X2)</label>
+    <description>The simple brown rug. Its soft texture and earthy tone, blending seamlessly with various decor styles.</description>
+    <graphicData>
+      <texPath>Indoor_Decorations/Rugs/XJ3K7F9L_BrownRug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>140</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>20</Beauty>
+      <Cleanliness>0.5</Cleanliness>
+      <Mass>10</Mass>
+    </statBases>
+    <costList>
+      <Cloth>45</Cloth>
+    </costList>
+    <size>(2,2)</size>
+  </ThingDef>
+  <!--Green Rug-->
+  <ThingDef ParentName="RA_RugBase">
+    <defName>XJ3K7F9L_GreenRug</defName>
+    <label>Green Rug (2X2)</label>
+    <description>The simple green rug. Its soft texture and earthy tone, blending seamlessly with various decor styles.</description>
+    <graphicData>
+      <texPath>Indoor_Decorations/Rugs/XJ3K7F9L_GreenRug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>140</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>20</Beauty>
+      <Cleanliness>0.5</Cleanliness>
+      <Mass>10</Mass>
+    </statBases>
+    <costList>
+      <Cloth>45</Cloth>
+    </costList>
+    <size>(2,2)</size>
+  </ThingDef>
+  <!--Coloured Striped Rug-->
+  <ThingDef ParentName="RA_RugBase">
+    <defName>XJ3K7F9L_ColouredStripedRug</defName>
+    <label>Coloured Striped Rug (2X1)</label>
+    <description>The striped rug infuses vibrant energy into any space. Its bold stripes captivate the eye, elevating the ambiance with a modern twist on traditional design.</description>
+    <graphicData>
+      <texPath>Indoor_Decorations/Rugs/XJ3K7F9L_ColouredStripedRug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>10</Beauty>
+      <Cleanliness>0.5</Cleanliness>
+      <Mass>7</Mass>
+    </statBases>
+    <costList>
+      <Cloth>35</Cloth>
+    </costList>
+    <size>(2,1)</size>
+    <uiIconOffset>(0, -0.1)</uiIconOffset>
+  </ThingDef>
+  <!--Cream Striped Rug-->
+  <ThingDef ParentName="RA_RugBase">
+    <defName>XJ3K7F9L_CreamStripedRug</defName>
+    <label>Cream Striped Rug (2X1)</label>
+    <description>The striped rug infuses vibrant energy into any space. Its bold stripes captivate the eye, elevating the ambiance with a modern twist on traditional design.</description>
+    <graphicData>
+      <texPath>Indoor_Decorations/Rugs/XJ3K7F9L_CreamStripedRug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>10</Beauty>
+      <Cleanliness>0.5</Cleanliness>
+      <Mass>7</Mass>
+    </statBases>
+    <costList>
+      <Cloth>35</Cloth>
+    </costList>
+    <size>(2,1)</size>
+    <uiIconOffset>(0, -0.1)</uiIconOffset>
+  </ThingDef>
+  <!--Pink Small Rug-->
+  <ThingDef ParentName="RA_RugBase">
+    <defName>XJ3K7F9L_PinkSmallRug</defName>
+    <label>Pink Small Rug (1X1)</label>
+    <description>The pink small sug offers a delicate touch to any room, adding a subtle pop of color and a soft, comforting texture underfoot. Its compact size makes it perfect for cozy corners or as an accent piece in smaller spaces.</description>
+    <uiIconScale>0.8</uiIconScale>
+    <graphicData>
+      <texPath>Indoor_Decorations/Rugs/XJ3K7F9L_PinkSmallRug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <WorkToBuild>800</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>8</Beauty>
+      <Cleanliness>0.5</Cleanliness>
+      <Mass>5</Mass>
+    </statBases>
+    <costList>
+      <Cloth>20</Cloth>
+    </costList>
+    <size>(1,1)</size>
+    <uiIconOffset>(0, -0.1)</uiIconOffset>
+  </ThingDef>
+  <!--Green Small Rug-->
+  <ThingDef ParentName="RA_RugBase">
+    <defName>XJ3K7F9L_GreenSmallRug</defName>
+    <label>Green Small Rug (1X1)</label>
+    <description>The green small rug brings a touch of nature indoors, infusing your living space with refreshing energy and vibrant color. Its plush texture offers comfort underfoot while its verdant hue adds a sense of tranquility to any room.</description>
+    <uiIconScale>0.8</uiIconScale>
+    <graphicData>
+      <texPath>Indoor_Decorations/Rugs/XJ3K7F9L_GreenSmallRug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <WorkToBuild>800</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>8</Beauty>
+      <Cleanliness>0.5</Cleanliness>
+      <Mass>5</Mass>
+    </statBases>
+    <costList>
+      <Cloth>20</Cloth>
+    </costList>
+    <size>(1,1)</size>
+    <uiIconOffset>(0, -0.1)</uiIconOffset>
+  </ThingDef>
+</Defs>
